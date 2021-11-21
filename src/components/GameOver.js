@@ -7,9 +7,8 @@ function GameOver(props) {
         <div id="gameOver">
            <div id="gameOverBox">
                <h1 id="gameOverTitle">
-                   Fim de Jogo!
+                   JOGO DA MEMÓRIA
                </h1>
-               <h2 id="gameOverSubtitle"> Você completou o desafio.</h2>
                <button id="restartGame" onClick={props.handleRestart}>Jogar Novamente</button>
            </div>
        </div> :<></>

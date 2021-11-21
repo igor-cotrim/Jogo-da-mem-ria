@@ -62,7 +62,7 @@ let game = {
     return cards;
   },
   restartPairCont: function () {
-    this.pairCont = 10;
+    this.pairCont = 8;
     this.movimentos++
   },
   setCard: function (id) {

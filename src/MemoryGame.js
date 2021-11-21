@@ -37,9 +37,10 @@ function MemoryGame() {
     game.endGame = false;
     setCards(game.startCards());
     setGameOver(false);
+    game.movimentos = 0;
   }
-  function handleFlip(card) {
 
+  function handleFlip(card) {
     if (game.setCard(card.currentTarget.id)) {
       if (game.matchCheck()) {
         game.clearCards()
