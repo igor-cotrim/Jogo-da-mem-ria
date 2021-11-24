@@ -9,7 +9,9 @@ function GameOver(props) {
                <h1 id="gameOverTitle">
                    JOGO DA MEMÓRIA
                </h1>
-               <button id="restartGame" onClick={props.handleRestart}>Jogar Novamente</button>
+               {/* <button id="restartGame" onClick={props.handleRestart}>Jogar Novamente</button> */}
+               <button id="restartGame" onClick={props.eightCards}>8 Cartas</button>
+               <button id="restartGame" onClick={props.handleRestart}>16 Cartas</button>
            </div>
        </div> :<></>
     );
