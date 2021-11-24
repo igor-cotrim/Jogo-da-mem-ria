@@ -41,6 +41,7 @@ function MemoryGame() {
     game.endGame = false;
     setCards(game.startCards());
     setGameOver(false);
+    setEightCardsActive(false);
     game.movimentos = 0;
   }
 
